@@ -18,8 +18,11 @@ To Install the application please run following commands:
 
 ```bash
 $ cd symfony-rest
+$ composer install
 $ docker-compose up --build
 ```
+
+If you are from windows 10 please don't forget to restart your docker-client to skip `Error starting userland proxy: mkdir ....` kinds of issues.
 
 Then visit:
 
